@@ -2,7 +2,7 @@
 
 ## Unity發送SMS推送簡訊    
 
-* 建立`SMSSystem.cs`新增以下資訊          
+* 建立 `SMSSystem.cs` 新增以下資訊          
 * 新增變數手機號碼與訊息:    
 ```
 public InputField MobileNo`,`public InputField Message
