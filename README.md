@@ -14,7 +14,28 @@ string message = MainMessage.text;  // this is your message
 * 新增簡訊發送:     
 ```
 Application.OpenURL(string.Format("sms:" + numbers + "&body=" + message));    
+Application.OpenURL(string.Format("sms:" + numbers + "?body=" + message));
 ```
+* 判斷來源裝置:       
+```
+if (Application.platform == RuntimePlatform.Android)
+{
+  Debug.Log("Android");
+}
+else if(Application.platform == RuntimePlatform.IPhonePlayer)
+{
+  Debug.Log("IOS");
+}
+else if(Application.platform == RuntimePlatform.OSXEditor)
+{
+  Debug.Log("OSXEditor");
+}
+else
+{
+  Debug.Log(Application.platform);
+}
+```
+* 來源裝置會影響新增簡訊的調用方式    
 
 
 
