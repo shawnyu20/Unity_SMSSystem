@@ -5,7 +5,8 @@
 * 建立 `SMSSystem.cs` 新增以下資訊          
 * 新增變數手機號碼與訊息:    
 ```
-public InputField MobileNo`,`public InputField Message
+public InputField MobileNo
+public InputField Message
 ```    
 * 獲取變數內容:       
 ```
