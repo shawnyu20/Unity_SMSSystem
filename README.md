@@ -10,8 +10,8 @@ public InputField Message
 ```    
 * 獲取變數內容:       
 ```
-string numbers = MobileNo.text;
-string message = MainMessage.text;
+string numbers = MobileNo.text; // this is your number
+string message = MainMessage.text;  // this is your message
 ```
 * 新增簡訊發送:     
 ```
